@@ -4,6 +4,7 @@ typing
 pedantic
 pandas
 mysql-connector-python
+boto3
 # pymongo
 # dnspython
 # mysqlclient
