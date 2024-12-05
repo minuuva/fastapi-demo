@@ -27,6 +27,10 @@ DB = "qce2dp"
 db = mysql.connector.connect(user=DBUSER, host=DBHOST, password=DBPASS, database=DB)
 cur=db.cursor()
 
+@app.get("/")
+def read_root():
+    return {"Welcome to DIY Spotify!"}
+
 @app.get('/genres')
 def get_genres():
     query = "SELECT * FROM genres ORDER BY genreid;"
