@@ -45,3 +45,4 @@ Look in `.github/workflows/build.yml` for a sample template that completes the f
 1. Builds the container image.
 2. Pushes the new image to the container registry of your choice (i.e. Docker Hub, GHCR, etc.)
 3. (Optional) Pushes a message to a cluster triggering a re-deployment of the app.
+
